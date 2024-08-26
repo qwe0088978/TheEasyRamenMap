@@ -37,7 +37,7 @@ function MapContainer({ taste, region, mrtStation }) {
   return (
     <div className="map-container">
       <div className="google-map">
-        <LoadScript googleMapsApiKey="AIzaSyC238pwHPaNMY3VXOOfuZFkuSVKRnaZqOM">
+        <LoadScript googleMapsApiKey="YOUR_API_KEY">
           <GoogleMap
             mapContainerStyle={mapSize}
             center={center}
