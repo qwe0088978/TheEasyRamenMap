@@ -1,0 +1,38 @@
+.filter-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+  }
+  
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filter-item label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0px;
+  }
+  
+  .filter-item select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    transition: all 0.3s ease;
+    font-family: 'inherit', sans-serif;
+    color: #333;
+    width: 150px;
+  }
+  
+  .filter-item select:hover,
+  .filter-item select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,.25);
+  }
+  
